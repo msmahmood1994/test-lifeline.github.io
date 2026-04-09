@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Quote | Life Line Shield</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a href="index.html" class="brand-mark">Life Line Shield</a>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="quote.html" class="nav-button active">Free Quote</a>
+      </nav>
+    </header>
+
+    <main class="quote-page">
+      <section class="quote-hero">
+        <div class="quote-hero-copy">
+          <p class="eyebrow">Free Quote</p>
+          <h1>Take the first step toward clearer, more confident protection planning.</h1>
+          <p class="quote-hero-text">
+            Request a free quote and let Life Line Shield help you explore your
+            options with a more personal, modern, and supportive experience.
+          </p>
+        </div>
+
+        <div class="quote-hero-card">
+          <p class="panel-kicker">Why start here</p>
+          <h2>A simple first step with less overwhelm.</h2>
+          <p>
+            This is where protection planning begins to feel more approachable.
+            Share a few details and we will help guide the next step with more
+            clarity and confidence.
+          </p>
+        </div>
+      </section>
+
+      <section class="quote-main">
+        <div class="quote-form-card">
+          <p class="section-label">Request your quote</p>
+          <h2>Tell us a little about your needs.</h2>
+          <p class="quote-intro">
+            Fill out this form and someone from our team will follow up with you
+            to help you explore the right options.
+          </p>
+
+          <form class="quote-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="quote-first-name">First Name</label>
+                <input type="text" id="quote-first-name" name="quote-first-name" placeholder="Your first name" />
+              </div>
+
+              <div class="form-group">
+                <label for="quote-last-name">Last Name</label>
+                <input type="text" id="quote-last-name" name="quote-last-name" placeholder="Your last name" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="quote-email">Email Address</label>
+                <input type="email" id="quote-email" name="quote-email" placeholder="you@example.com" />
+              </div>
+
+              <div class="form-group">
+                <label for="quote-phone">Phone Number</label>
+                <input type="tel" id="quote-phone" name="quote-phone" placeholder="(000) 000-0000" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="coverage-type">Coverage Type</label>
+                <select id="coverage-type" name="coverage-type">
+                  <option value="">Select an option</option>
+                  <option>Life Insurance</option>
+                  <option>Family Protection Planning</option>
+                  <option>Policy Review</option>
+                  <option>General Consultation</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-method">Preferred Contact Method</label>
+                <select id="contact-method" name="contact-method">
+                  <option value="">Select an option</option>
+                  <option>Phone</option>
+                  <option>Email</option>
+                  <option>Either</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="quote-message">Additional Details</label>
+              <textarea
+                id="quote-message"
+                name="quote-message"
+                rows="6"
+                placeholder="Share anything helpful about your goals, questions, or what kind of protection you’re looking for."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Request Quote</button>
+          </form>
+        </div>
+
+        <aside class="quote-info-panel">
+          <div class="quote-info-card">
+            <p class="section-label">What happens next</p>
+            <h2>A clear and supportive follow-up.</h2>
+            <ul class="panel-list">
+              <li>We review the information you submit</li>
+              <li>We follow up with thoughtful next steps</li>
+              <li>We help you explore options with more clarity</li>
+            </ul>
+          </div>
+
+          <div class="quote-info-card">
+            <p class="section-label">Why clients choose us</p>
+            <h2>A more elevated quote experience.</h2>
+            <p>
+              We believe people should feel informed and supported from the very
+              beginning, not rushed into decisions they do not fully understand.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="quote-cta">
+        <div class="about-cta-card">
+          <div>
+            <p class="section-label">Need to talk first?</p>
+            <h2>Contact us directly.</h2>
+            <p>
+              If you would rather start with a conversation, visit our contact
+              page and reach out to the team.
+            </p>
+          </div>
+
+          <div class="about-cta-actions">
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            <a href="services.html" class="btn btn-secondary">View Services</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="JS/script.js"></script>
+  </div>
+</body>
+</html>
